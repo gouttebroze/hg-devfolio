@@ -4,12 +4,13 @@ import Navbar from './components/Navbar';
 import { Outlet, Link } from "react-router";
 import { Home } from './pages/Home';
 import { Footer } from './components/Footer';
+import Header from './components/Header';
 
 export default function App() {
 
   return (
     <>
-      <Navbar />
+      <Header />
       <Outlet />
       <Footer />
     </>

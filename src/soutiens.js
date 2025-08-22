@@ -54,7 +54,7 @@ export const soutiens = [
         mentoratPrEquipe: "Tu gères une équipe tech ou produit ? Tu es: CTO, lead dev, manager, responsable d’équipe?, ou À la tête d’une squad, d’une feature team ou d’une DSI ? En quête de méthode, d’alignement et de progression collective ? ou encore tu ne sais pas comment faire ta transision DevOps ?",
         url: "Les Compagnons du DevOps https://www.compagnons-devops.fr/mentor/",
         citation: "Le DevOps, c’est un chemin. Mais il ne se fait pas seul. Et surtout : on n'a pas tous les mêmes besoins*.",
-        images: ""
+        images: "ttt"
     },
     {
         id: 2,
@@ -107,6 +107,15 @@ export const soutiens = [
     }
 ]
 
+export const homepage = [
+  {
+    id: 0,
+    title: "Hugues, Développeur fullstack React",
+    about: "Welcome to our website",
+    url: "https://example.com",
+    images: "https://images.unsplash.com/photo-1578922427288-a47338083a57?q=80&w=695&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+]
 // const services = [
 //   {
 //     title: 'JavaScript / React Frontend Developer',

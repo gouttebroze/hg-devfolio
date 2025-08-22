@@ -1,6 +1,6 @@
 //import Gallery from '../components/Gallery';
-import { Footer } from '../components/Footer';
-import { soutiens } from '../datas.js';
+//import { Footer } from '../components/Footer';
+import { soutiens } from '../soutiens.js';
 
 export function About() {
 

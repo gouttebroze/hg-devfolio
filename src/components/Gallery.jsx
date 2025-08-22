@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import { soutiens } from '../datas';
+import { soutiens } from '../soutiens';
 
 export default function Gallery() {
   return (

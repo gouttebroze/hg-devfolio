@@ -35,6 +35,13 @@ h1 {
   line-height: 1.1;
 }
 
+h3 {
+  font-size: 2.4em;
+  line-height: 1.1;
+  background-color: darkorange;
+  color:rgba(11, 167, 146, 0.87)
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;

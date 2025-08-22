@@ -23,9 +23,39 @@ npm i --save bootstrap @popperjs/core
 
 # SASS install.
 npm i --save-dev sass
+
+# MUI desgn system install.
+npm install @mui/material @emotion/react @emotion/styled
+
+# roboto Font
+npm install @fontsource/roboto
 ```
 
-- learn more on [Bootstrap & SASS doc. here](https://getbootstrap.com/docs/5.3/getting-started/vite/)
+```jsx
+# Then you can import it in your entry point like this:
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+```
+
++ **Icons**
+  - *To use the font Icon component or the prebuilt SVG Material Icons (such as those found in the icon demos), you must first install the Material Icons font. You can do so with npm, or with the Google Web Fonts CDN.*
+
+```bash
+npm install @mui/icons-material
+```
+
++ **Google Web Fonts**
+  - To install *Roboto* through the *Google Web Fonts CDN*, add the following code inside ``your project's <head /> tag``:
+```js
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+/>
+```
 
 ### `GSAP` animations tool
 
@@ -105,8 +135,7 @@ Et surtout : on n'a pas tous les mêmes besoins*.`
 - ``
 - ``
 - ``
-- ``
-- ```
+
 
 
 ```js
