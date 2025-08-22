@@ -45,7 +45,7 @@
 //   },
 // ];
 
-const soutiens = [
+export const soutiens = [
     {
         id: 1, 
         title: "Les Compagnons du DevOps, une initiative de Lydra.",
@@ -104,9 +104,7 @@ const soutiens = [
         url: "",
         citation: "",
         images: "https://images.unsplash.com/photo-1578922427288-a47338083a57?q=80&w=695&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {},
-    {},
+    }
 ]
 
 // const services = [
@@ -455,4 +453,4 @@ const soutiens = [
 
 // export { services, technologies, experiences, projects, soutiens };
 
-export { soutiens };
+

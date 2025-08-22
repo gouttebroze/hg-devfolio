@@ -5,9 +5,10 @@ import { soutiens } from '../datas';
 export default function Gallery() {
   return (
     <div className="gallery">
-        {soutiens && soutiens.map((soutien) => {
+        {soutiens.map(soutien => {
             return (
                 <Card 
+                    key={soutien.id}
                     id={soutien.id}
                     title={soutien.title}
                     about={soutien.about}

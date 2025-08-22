@@ -3,56 +3,56 @@ import Gallery from './components/Gallery';
 import Navbar from './components/Navbar';
 import { Outlet, Link } from "react-router";
 import { Home } from './pages/Home';
+import { Footer } from './components/Footer';
 
 export default function App() {
 
   return (
     <>
       <Navbar />
-      <Layout />
-      <h1>Welcome to My Portfolio</h1>
-      <Home />
+      <Outlet />
+      <Footer />
     </>
   )
 }
 
-export function Layout() {
-  return (
-    <div>
-      {/* A "layout route" is a good place to put markup you want to
-          share across all the pages on your site, like navigation. */}
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
+// export function Layout() {
+//   return (
+//     <div>
+//       {/* A "layout route" is a good place to put markup you want to
+//           share across all the pages on your site, like navigation. */}
+//       <nav>
+//         <ul>
+//           <li>
+//             <Link to="/">Home</Link>
+//           </li>
+//           <li>
+//             <Link to="/about">About</Link>
+//           </li>
+//           <li>
+//             <Link to="/projects">Projects</Link>
+//           </li>
+//           <li>
+//             <Link to="/contact">Contact</Link>
+//           </li>
          
-        </ul>
-      </nav>
+//         </ul>
+//       </nav>
 
-      <hr />
+//       <hr />
 
-      {/* 
-       <li>
-            <Link to="/nothing-here">Nothing Here</Link>
-          </li>
+//       {/* 
+//        <li>
+//             <Link to="/nothing-here">Nothing Here</Link>
+//           </li>
       
-      An <Outlet> renders whatever child route is currently active,
-          so you can think about this <Outlet> as a placeholder for
-          the child routes we defined above. */}
-      <Outlet />
-    </div>
-  );
-}
+//       An <Outlet> renders whatever child route is currently active,
+//           so you can think about this <Outlet> as a placeholder for
+//           the child routes we defined above. */}
+//       <Outlet />
+//     </div>
+//   );
+// }
 
 // function NoMatch() {
 //   return (
