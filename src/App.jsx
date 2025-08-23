@@ -5,12 +5,13 @@ import { Outlet, Link } from "react-router";
 import { Home } from './pages/Home';
 import { Footer } from './components/Footer';
 import Header from './components/Header';
+import AppAppBar from './components/AppAppBar';
 
 export default function App() {
 
   return (
     <>
-      <Header />
+      <AppAppBar />
       <Outlet />
       <Footer />
     </>

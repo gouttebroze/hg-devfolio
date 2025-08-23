@@ -8,6 +8,9 @@ import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Projects } from "./pages/Projects";
 import { Contact } from "./pages/Contact";
+import { Formation } from "./pages/Formation";
+import { Skills } from "./pages/Skills";
+import { Blog } from "./pages/Blog";
 //import { Layout } from "./App";
 import App from './App.jsx'
 // Import our custom CSS
@@ -32,6 +35,18 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />,
+      },
+      {
+        path: "/formation",
+        element: <Formation />,
+      },
+      {
+        path: "/skills",
+        element: <Skills />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
       },
       {
         path: "/contact",
