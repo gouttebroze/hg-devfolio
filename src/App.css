@@ -20,10 +20,42 @@
 
 .navbar__wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
+.small {
+      font: italic 13px sans-serif;
+    }
+    .heavy {
+      font: bold 30px sans-serif;
+    }
+
+    .Rrrrr {
+      font: italic 40px serif;
+      fill: red;
+    }
+
+  .section__animated {
+      display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    }
+
+.section__animated .box {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(5, 82, 24);
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(5, 82, 24);
+}
+    
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

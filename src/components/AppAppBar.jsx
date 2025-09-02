@@ -29,7 +29,7 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
     ? `rgba(${theme.vars.palette.background.defaultChannel} / 0.4)`
     : alpha(theme.palette.background.default, 0.4),
   boxShadow: (theme.vars || theme).shadows[1],
-  padding: '8px 12px',
+  padding: '2px 1px',
 }));
 
 export default function AppAppBar() {
@@ -56,7 +56,7 @@ export default function AppAppBar() {
             {/* <Sitemark /> */}
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
               <nav>
-                <ul className='navbar__wrapper'>
+                <ul className='navbar__wrapper'  direction="row" spacing={2}>
                   <li>
                       <Link to="/">Home</Link>
                   </li>
@@ -80,27 +80,6 @@ export default function AppAppBar() {
                   </li>
                 </ul>
               </nav>         
-              <div>
-                <ul>
-                  <h3>Bienvenue à toutes & à tous les passionnés...mes passions, moteurs d'innovation et de créativité, m'ont depuis toujours guidé.</h3>
-                  <h3>source de détermination, de challenge et d'accomplissement.</h3>
-                  <li>création</li>
-                  <li></li>
-                  <li>collaboration essentielle (travail d'équipe, partage des connaissances)</li>
-                  
-                  <li>partage des responsabilités, des connaissances.... entre équipes de conception, design, programmation & développement, testing, déploiement....</li>
-                  <li>amélioration continue, feedback et itérations, revues de code, pair programming...</li>
-                  <li>quelques notions qui améliorent la qualité du code, la sécurité & la qualité de la livraison</li>
-                  <li>améliorent également l'apprentissage, les conditions de travail, l'impliquation...</li>
-                  <li>après avoir pratiqué le DevOps durant 2 ans chez Lydra, en tant que développeur React...</li>
-                  <li>J'accorde aujourd'hui la plus grande importance autour de la culture DevOps...</li>
-
-                  <li>besoin de créer, de collaborer & de partager mes passions</li>
-                  <li>pratique de la musique (clarinette, batterie, basse...)</li>
-                  <li>pratique du développement d'appli, des interfaces front, algoritymie, paradigme de programmation ou encore des collaborations sur différents projets open source ... </li>
-
-                </ul>
-               </div>
               <Outlet />
             </Box>
           </Box>

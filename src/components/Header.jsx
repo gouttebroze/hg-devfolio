@@ -66,9 +66,9 @@ function Header(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            Hugues, programmeur / développeur
+            Hugues, programmeur développeur
           </Typography>
-          <AppBar position="fixed">
+          <AppBar position="">
             <Toolbar>
               <ul>
                 <li>

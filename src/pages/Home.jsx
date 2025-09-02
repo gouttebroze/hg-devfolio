@@ -4,8 +4,6 @@
 export function Home() {
   return (
     <div>
-      <h1>Bienvenue - Welcome</h1>
-      <h3></h3>
       <div>
                 <ul>
                   <h3>Bienvenue à toutes & à tous les passionnés...mes passions, moteurs d'innovation et de créativité, m'ont depuis toujours guidé.</h3>

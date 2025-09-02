@@ -3,6 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
+import { StyledEngineProvider } from '@mui/material/styles'
 //import { ErrorPage } from "./pages/ErrorPage";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
@@ -59,5 +60,9 @@ const router = createBrowserRouter([
 const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
-  <RouterProvider router={router} />,
+  <React.StrictMode>
+    <StyledEngineProvider injectFirst>
+      <RouterProvider router={router} />
+    </StyledEngineProvider>
+  </React.StrictMode>
 );
